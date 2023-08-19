@@ -1,11 +1,12 @@
 import { FEATURES } from "../../constants";
+import computer from "../../images/image-computer.png";
 
 export const SectionFeatures = () => {
   return (
     <section className="relative mt-32 flex flex-col gap-32 text-center md:flex-row md:text-left">
       <div className="md:w-1/2">
         <img
-          src="/src/images/image-computer.png"
+          src={computer}
           alt="computer"
           className="-top-10 right-[50%] md:absolute"
         />

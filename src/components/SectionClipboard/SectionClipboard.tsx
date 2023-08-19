@@ -1,9 +1,10 @@
 import { ActionButton } from "../ActionButton";
+import logo from "../../images/logo.svg";
 
 export const SectionClipboard = () => {
   return (
     <section className="flex flex-col items-center gap-8 pt-32 text-center">
-      <img src="/src/images/logo.svg" alt="Clipboard logo" className="mb-8" />
+      <img src={logo} alt="Clipboard logo" className="mb-8" />
       <h2 className="text-3xl font-bold text-color-title lg:text-5xl">
         A history of everything you copy
       </h2>

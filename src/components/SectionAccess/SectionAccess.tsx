@@ -1,3 +1,5 @@
+import devices from "../../images/image-devices.png";
+
 export const SectionAccess = () => {
   return (
     <section className="mt-80 text-center">
@@ -8,11 +10,7 @@ export const SectionAccess = () => {
         Whether you’re on the go, or at your computer, you can access all your
         Clipboard snippets in a few simple clicks.
       </p>
-      <img
-        src="/src/images/image-devices.png"
-        alt="devices"
-        className="mx-auto"
-      />
+      <img src={devices} alt="devices" className="mx-auto" />
     </section>
   );
 };
