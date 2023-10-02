@@ -6,7 +6,7 @@ import vector from "../../images/logo-vector-graphics.png";
 
 export const SectionSponsors = () => {
   return (
-    <section className="mb-48 flex flex-col flex-wrap items-center justify-center gap-24 sm:flex-row">
+    <section className="mb-48 flex flex-col flex-wrap items-center justify-center gap-24 md:flex-row">
       <img src={google} alt="google" />
       <img src={ibm} alt="ibm" />
       <img src={microsoft} alt="microsoft" />
